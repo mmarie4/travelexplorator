@@ -76,7 +76,6 @@ h2 {
 .country-title {
     width: auto;
     display: inline-block;
-    margin-left: 40%;
     font-size: 18px;
     text-align: center;
     margin-top: 10px;
@@ -84,9 +83,8 @@ h2 {
 }
 
 .reload-btn {
-    width: 1%;
-    margin-right: 45%;
-    margin-left: 1%;
+    width: 20px;
+    margin-left: 20px;
     cursor: pointer;
     display: inline-block;
 }
@@ -116,10 +114,10 @@ h2 {
     }
 
     h2 {
-        font-size: 12px;
+        font-size: 16px;
         width: 70%;
         margin-left: 15%;
-        margin-top: 0;
+        margin-top: 50px;
     }
 
     .continent-img {
@@ -133,13 +131,8 @@ h2 {
     }
 
     .country-title {
-        font-size: 12px;
+        font-size: 16px;
         margin-left: 20%;
-    }
-
-    .reload-btn {
-        width: 10px;
-        margin-right: 60%;
     }
 
 }

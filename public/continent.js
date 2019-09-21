@@ -54,6 +54,7 @@ var displayAllPictures = function() {
         reload.className = 'reload-btn';
         reload.addEventListener('click', reloadPictures);
         countryBox.appendChild(reload);
+        countryBox.appendChild(document.createElement('br'));
         // Add images
         addImages(countryBox, i);
         container.appendChild(countryBox);
