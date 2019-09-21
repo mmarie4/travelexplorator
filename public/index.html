@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Travel Explorator</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <img id='back-btn' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAABxklEQVRoge3avU4bQRSGYYcoQqJIkQLx09CkS5Uyt2CaFOmouQIIPaTILeQWcgVpiNKlANFxAylSpEiBQQKEeFLsQKzlx7vj3bXHzNvYluac832a9exZH/d6mUwmCqxjH6cmz0ChpV/XxKcJC3+MvTo7AefYwnLMjjYJlrEdNFFlZ/A9LN7qQGMt8DFo26+yeBAWL3WgrRZYCtpOqiwGHeiK4iF9c5MQ0wbZyLSRjYwD5rHbdpFWTy28w3Fsjcr62jKCBXzG1Tg1JmoktD2/QurL5IzgFb74zxHeJmUEH/AnpDvDDp6PW6MzI1jDt6Fd+IHXTdVo3QjmsImTkOJv+PysqRq1YmOK4A1+Du3CVyw2WaN2bJ0ieBGu/ZsHnt9432SN6NiqCw3d2HCtOJ1eNiqmRuzM9Fp3eHKXVikm7S97KS7947cUn/YN8Z48abcopVzpN42lnGm38aW86T9YlfKn/ahbqhH948NUGRmHh/TNTK+VjUwbM21k0OsV466OtYwEq+HtnUHPfUYOwutGa4riudF0OHIl+uGEO1fM7Fba1TYarCiazougrdqYGnuml2rj6SEzfcWQfjAicRfE/WEgk8nc8g/B2kErHszlWwAAAABJRU5ErkJggg==">
+
+    <div id="title-bar" class>
+        <img src='res/title.png'>
+    </div>
+
+    <h2 id ="subtitle" >Which region do you want to explore ?</h2>
+
+    <div id='continents-container'>
+        <img id="northAmerica" class='continent-img' src="res/northAmerica.png">
+        <img id="southAmerica" class='continent-img' src="res/southAmerica.png">
+        <img id="europe" class='continent-img' src="res/europe.png">
+        <img id="africa" class='continent-img' src="res/africa.png">
+        <img id="asia" class='continent-img' src="res/asia.png">
+        <img id="oceania" class='continent-img' src="res/oceania.png">
+    </div>
+
+    <div id="countries-container">
+        <!-- countries in a specific region and the pictures go there when a region is selected -->
+    </div>
+
+    <div>
+        <img id='load-text' src='res/loading.gif'>
+    </div>
+
+
+    <script src="continent.js"></script>
+
+</body>
+</html>

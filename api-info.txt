@@ -1,0 +1,6 @@
+Instagram API:
+client id: 3a4af1d1ac164e3b9d3d62c9003aaddf
+user id : 20461573332 
+client secret: de0f2e2080514ef891684c78673af869
+access token : 20461573332.3a4af1d.0ae754a5a12d4b2689889206e56fe9f0
+status: Sandbox Mode
