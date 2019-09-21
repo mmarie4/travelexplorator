@@ -68,7 +68,7 @@ h2 {
 }
 
 .country-img {
-    margin: 0.5%;
+    margin: 0.4%;
     width: 10%;
     border: 1px solid white;
 }
@@ -125,9 +125,9 @@ h2 {
     }
 
     #back-btn {
-        width: 20px;
-        top: 10px;
-        left: 10px;
+        width: 40px;
+        top: 20px;
+        left: 20px;
     }
 
     .country-title {

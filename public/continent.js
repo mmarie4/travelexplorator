@@ -23,7 +23,7 @@ var handleClick = function(event) {
             }
         }
     };
-    req.open('GET', 'http://localhost:3000/' + continentName, true); 
+    req.open('GET', 'http://51.38.68.118:3000/' + continentName, true); 
     req.send();
     // Hide continents images
     var imgs = document.getElementsByClassName('continent-img');
